@@ -10,15 +10,9 @@ textarea {
   background-color: transparent;
   width: 100%;
   padding: 0.5em;
-  padding-right: calc(100% - 80ch - 0.5em - 17px);
+  padding-left: 28%;
+  padding-right: 28%;
   overflow-y: scroll;
-}
-#linewidth-guide {
-  border-right: 1px solid PaleTurquoise;
-  width: calc(80ch + 1px);
-  margin-left: 0.5em;
-  position: absolute;
-  z-index: -1;
 }
 nav {
   position: fixed; bottom: 0; left: 0;
